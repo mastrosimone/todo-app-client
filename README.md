@@ -176,3 +176,7 @@ In package.json I've added two npm scripts, version and postversion. These are c
 ### Deploy phase
 
 see [Github pages](https://pages.github.com)
+
+## Inspired by
+
+[todomvc](http://todomvc.com/examples/vanillajs)
