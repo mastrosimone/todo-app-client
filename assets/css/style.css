@@ -10,3 +10,14 @@ html, body {
 .TodoApp {
     background-color: tomato; /* ;) tomato */
 }
+div#big {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+div#center {
+    margin: 15px 0;
+}
+div#top {
+    margin: 25px 0;
+}
