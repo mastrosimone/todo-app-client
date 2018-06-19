@@ -163,7 +163,7 @@ npm version major #will move version to 1.0.0
 
 This is called [Semantic Versioning](https://semver.org)
 
-In package.json I've added two npm scripts, version and postversion. These are called hooks, and are fired after/before a version event. It's a good practice to make an half automaized release.
+In package.json I've added two npm scripts, version and postversion. These are called hooks, and are fired after/before a version event. It's a good practice to make an half automatized release.
 
 ```json
 "scripts": {
