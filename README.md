@@ -62,7 +62,7 @@ var todo = {
 - You can add more than one todo
 - You can delete a todo
 - Each change to the model must be reflected into the Store object
-- Store object should be written in order to make three ajax call, GET (retrieve data), POST (create data), PUT (update date)
+- Store object should be written in order to make three ajax call, GET (retrieve data), POST (create data), PATCH (update date)
 - Extra functionality: show/hide done todos from the view
 - Extra functionality: Todos pagination
 
