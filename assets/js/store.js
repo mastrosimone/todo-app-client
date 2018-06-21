@@ -7,7 +7,7 @@
         // ajax call to post method
         var xhr = new XMLHttpRequest(),
         method = "PUT",
-        url = "http://192.168.20.173:7000/todos/" + id;
+        url = "http://todoapp.mosfarm.eu/todos/" + id;
     
         xhr.open(method, url, true);
         xhr.setRequestHeader('Content-type', 'application/json', 'charset=utf-8');
@@ -25,7 +25,7 @@
         // ajax call to post method
         var xhr = new XMLHttpRequest(),
         method = "POST",
-        url = "http://192.168.20.173:7000/todos";
+        url = "http://todoapp.mosfarm.eu/todos";
     
         xhr.open(method, url, true);
         xhr.setRequestHeader('Content-type', 'application/json', 'charset=utf-8');
@@ -42,7 +42,7 @@
 
         var xhr = new XMLHttpRequest(),
         method = "GET",
-        url = "http://192.168.20.173:7000/todos"
+        url = "http://todoapp.mosfarm.eu/todos"
         url = url + '?limit=1000&uuid=' + sessionUuid;
 
         xhr.open(method, url, true);

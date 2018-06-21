@@ -44,9 +44,14 @@ var devmode = false;
         json = JSON.stringify(json);
         
             window.app.Store.createTodo(json, function(response) {
-                console.log(response);
+                if (devmode == true){
+                    console.log(response);
+                }
                 var response = JSON.parse(response)
                 createElement(response.data)
+                if (devmode == true){
+                    console.log(response.data);
+                }
 
             })
 
